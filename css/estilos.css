@@ -1,0 +1,81 @@
+.navbar {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Inconsolata", monospace;
+}
+
+.container .img {
+  margin: 1rem 3rem;
+}
+
+.container .informacion {
+  padding: 2rem;
+}
+.container .informacion .text {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  color: #333333;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+/* .container .informacion p {
+} */
+.container .informacion .parrafo {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5rem;
+  color: #4f4f4f;
+}
+.container .informacion button {
+  padding: 1.5rem 2rem;
+  margin: 3rem 0;
+  border: none;
+}
+.container .informacion .btn {
+  background-color: #333333;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Space Mono", monospace;
+}
+
+footer {
+  text-align: center;
+}
+.piedepagina .negrita {
+  font-weight: bold;
+}
+.piedepagina .referencia {
+  color: #bdbdbd;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1392px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .container .informacion {
+    padding: 9rem;
+  }
+  .container .informacion .parrafo {
+    width: 65%;
+  }
+}
